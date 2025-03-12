@@ -19,11 +19,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 st.set_page_config(page_title="ML Model Evaluation", layout="wide")
 
 st.title("📊 Machine Learning Model Evaluation")
-st.sidebar.header("ℹ️ About this Tool")
-st.sidebar.write(
-    "This application evaluates classification models using various metrics. "
-    "Upload a CSV file with labeled data to analyze model performance."
-)
+st.write("Upload your dataset for classification model evaluation. Ensure your file is in CSV format with proper labels.")
 
 
 # File Upload Section
